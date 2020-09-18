@@ -1,0 +1,197 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+body
+{
+font-family: sans-serif;
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	font-weight: 600;
+}
+
+.navbar
+{
+	background-image: linear-gradient(to right, black, brown);
+	padding: 0 ! important;
+
+}
+.navbar a
+{
+	color: #fff !important;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 400;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+/*------------------------description section--------------------*/
+#description
+{
+	color: #fff;
+	background-color: black; /* Used if the image is unavailable */
+	height: 800px;
+	background-position: center; /* Center the image */
+	background-image: url("images/bannerCake.png");
+	background-repeat: no-repeat;
+	background-size: cover; /* Resize the background image to cover the entire container */
+	text-align: center;
+	padding-top: 350px;
+}
+/*------------------------menu section--------------------*/
+#menu
+{
+	padding: 40px 0;
+	background-image: linear-gradient(to right, black, brown);
+	color: #fff;
+}
+.menu-img
+{
+	width: 200px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.menu
+{
+	padding: 20px;
+	text-align: center;
+}
+.menu h4
+{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+/*------------------------history section--------------------*/
+#history
+{
+	margin: 1px 0;
+	padding: 40px 0;
+	background-image: linear-gradient(to right, black, brown);
+	color: #fff;
+}
+/*------------------------clients section--------------------*/
+#clients
+{
+	padding: 40px 0;
+	background-image: linear-gradient(to right, black, brown);
+	color: #fff;
+	margin: 1px 0;
+}
+.clients
+{
+	border-left: 4px solid white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.clients img
+{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.user-details
+{
+	display: inline-block;
+	font-size: 12px;
+}
+/*------------------------contact section--------------------*/
+#contact
+{
+	padding: 40px 0;
+	background-image: linear-gradient(to right, black, brown);
+	color: #fff;
+	margin: 1px 0;
+}
+input[type=text], select, textarea
+{
+	width: 60%;
+	padding: 12px;
+  	border-radius: 10px;
+  	height: 50px;
+
+}
+input[type=email]
+{
+	width: 60%;
+	padding: 12px;
+  	border-radius: 10px;
+  	height: 50px;
+
+}
+
+input[type=submit] 
+{
+  background-color: green;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+/*----------------------------footer section------------------------------*/
+#footer
+{
+	background-image: linear-gradient(to right, black, brown);
+	color: white;
+}
+.footer-box
+{
+	padding: 20px;
+}
+.footer-box img
+{
+	width: 120px;
+	margin-bottom: 20px;
+}
+.footer-box .fa
+{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+}
+hr
+{
+	background-color: white;
+}
+.copyright
+{
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
